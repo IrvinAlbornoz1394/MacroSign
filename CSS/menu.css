@@ -1,0 +1,21 @@
+#bs-example-navbar-collapse-1{
+	background: rgba(0,0,0,.2);
+	width: 250px !important;
+	margin: 0;
+	padding: 0px;
+}
+#bs-example-navbar-collapse-1 > ul > li > a{
+	text-align: center;
+	height: 50px !important;
+}
+.navbar-default{
+	margin: 0;
+}
+.user{
+	text-align: center;
+}
+@media (max-width: 800px){
+	#bs-example-navbar-collapse-1{
+	width: 100% !important;
+}
+}
